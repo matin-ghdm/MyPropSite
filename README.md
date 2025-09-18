@@ -1,12 +1,31 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📁 ساختار پروژه
 
-Currently, two official plugins are available:
+```
+src/
+├── components/          # کامپوننت‌های React
+│   ├── cards/          # کارت‌های نمایش محتوا
+│   ├── forms/          # فرم‌های ورودی
+│   ├── layout/         # کامپوننت‌های چیدمان
+│   ├── pages/          # صفحات اصلی
+│   ├── sections/       # بخش‌های مختلف صفحه
+│   ├── ui/             # کامپوننت‌های رابط کاربری
+│   └── widgets/        # ویجت‌های تخصصی
+├── data/               # داده‌های استاتیک
+├── hooks/              # Hook های سفارشی
+└── assets/             # فایل‌های استاتیک
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 صفحات اصلی
 
-## Expanding the ESLint configuration
+- **صفحه اصلی** - نمایش محتوای کلی و بخش‌های مختلف
+- **صفحه مقاله** - نمایش جزئیات مقالات
+- **صفحه سوالات متداول (FAQ)** - پاسخ به سوالات رایج
+- **صفحه ورود** - احراز هویت کاربران
+- **صفحه تایید** - تایید شماره تلفن
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **GitHub**: [@matin-ghdm](https://github.com/matin-ghdm)
+- **Repository**: [MyPropSite](https://github.com/matin-ghdm/MyPropSite)
+
+## 🙏 تشکر
+
